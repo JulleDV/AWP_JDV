@@ -3,7 +3,7 @@
     $host = 'mysql.metropolia.fi';
     $dbname = 'juliend'; // your username
     $user = 'juliend'; // your username
-    $pass = '1986loire'; // your database password
+    $pass = ''; // your database password
     
     try {
             $DBH = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
