@@ -1,0 +1,29 @@
+{% block content %}
+<!-- TODO: Make the other templates(Orbit, Gallery and Slider) in similar manner as this file. -->
+<div class="row">
+	<div class="medium-12 columns">
+		{{ "front.jpg" | asset_url | image_tag }}
+	</div>
+</div>
+<div class="row">
+	<div class="medium-8 columns">
+		<h1>Heading</h1>
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac felis non orci posuere euismod in sit amet tellus. Phasellus aliquam neque eget mauris convallis, ut faucibus justo porta. Curabitur interdum rhoncus erat, efficitur hendrerit libero pulvinar eu. Vivamus rutrum tortor quis fermentum maximus. Sed ac condimentum risus. Morbi ac tellus nec libero sagittis pretium dapibus at justo. Vestibulum vitae velit et diam tincidunt auctor vitae at justo. Curabitur non nulla odio. Proin nec felis interdum, posuere metus eget, tincidunt ex. Donec tempus sed libero sit amet ullamcorper. Ut eu laoreet erat. Vestibulum aliquet, enim vel tincidunt suscipit, neque velit semper ex, sit amet mollis tellus diam in purus. 
+		</p>
+		<p>
+		Morbi cursus porttitor mauris, non rutrum libero interdum vel. Morbi cursus diam metus, vel accumsan nunc tincidunt vel. Vivamus dolor velit, aliquam a neque sit amet, convallis ornare nunc. Maecenas nec orci eget ipsum facilisis viverra. Duis ut elit nec purus molestie efficitur non sit amet mi. Etiam venenatis, risus condimentum convallis dictum, odio elit interdum erat, vitae volutpat nisi augue quis tortor. Ut velit odio, imperdiet vitae scelerisque at, pulvinar vitae arcu. Curabitur nec nunc tortor. Quisque a erat nulla. Nullam molestie turpis ac velit pulvinar, eget eleifend nibh vehicula. Aliquam erat volutpat. 
+		</p>
+	</div>
+	<div class="medium-4 columns">
+		<div class="panel">
+			<h3>Side Heading</h3>
+			<p>
+			Etiam pharetra tortor eget tortor rhoncus, quis porttitor velit interdum. Etiam a lectus quam. Nunc bibendum venenatis iaculis. Vestibulum lorem neque, varius ut enim ac, vestibulum vulputate nibh. Proin id nunc a justo auctor tincidunt a id velit. Vivamus eget augue eu leo iaculis vestibulum ut ut leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+			</p>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}
